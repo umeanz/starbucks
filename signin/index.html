@@ -26,10 +26,12 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+ 
   <link rel="stylesheet" href="../css/common.css" />
-  <link rel="stylesheet" href="../css/main.css" />
-
+  <link rel="stylesheet" href="../css/signin.css" />
+  
   <script defer src ="../js/common.js"></script>
+  
 </head>
 <body>
   <!--Header-->
@@ -360,9 +362,28 @@
     </div>
   </header>
 
-  <sectio class="signin">
-
-  </sectio>
+  <section class="signin">
+    <h1>로그인</h1>
+    <div class="signin__card">
+      <h2>
+        <strong>Welcome!</strong>스타벅스에 오신 것을 환영합니다.
+      </h2>
+      <form >
+        <input type="text" placeholder="Type in ID." />
+        <input type="password" placeholder="Type in Psswords." />
+        <input type="submit" value="login" />
+        <p>
+          * there is risk to appropriation if you share the password,<br />
+          So, please change the password in periodically.
+        </p>
+      </form>
+       <div class="actions">
+         <a href="javascript:void(0)">회원가입</a>
+         <a href="javascript:void(0)">ID 찾기</a>
+         <a href="javascript:void(0)">비밀번호 찾기</a>
+       </div>
+    </div>
+  </section>
 
 <!-- FOOTER -->
 <footer>
